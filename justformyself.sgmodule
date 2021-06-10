@@ -1,8 +1,8 @@
-#!name=justformyself. By iki
+#!name=justformyself.js module  By iki
 #!desc=该模块仅自用
 #!system=ios
-[Script]
 
+[Script]
 获取多账号京东Cookie = type=http-request,pattern=^https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion,requires-body=1,max-size=0,script-path=https://github.com/nccuiki/script/blob/main/JD_extra_cookie.js,script-update-interval=0
 
 
